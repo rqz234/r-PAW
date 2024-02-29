@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background: #201658;
     margin: 0;
@@ -19,6 +23,11 @@ body{
     float: left;
 }
 
+.col-50 {
+    width: 50%;
+    float: left;
+}
+
 .img-responsive {
     width: 100%;
     max-height: 500px;
@@ -30,4 +39,8 @@ body{
 
 .rounded {
     border-radius: 20px;
+}
+
+.p-1{
+    padding: 10px;
 }
